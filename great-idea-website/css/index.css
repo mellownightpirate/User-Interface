@@ -54,13 +54,18 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Titillium Web', sans-serif,'Baskervville', serif;;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+h6 {
+	font-family: 'Baskerville';
+	font-display: bold;
 }
 
 /* Your code starts here! */
@@ -141,6 +146,10 @@ header .header-img {
 	width: 100%;	
 }
 
+.bottom-section {
+	border-bottom: 1px solid black;
+}
+
 .bottom-section .bottom-content {
 	display: inline-block;
 	width: 33%;
@@ -160,6 +169,10 @@ header .header-img {
 	text-align: left;
 	padding: 0 0 0 10%;
 }
+
+/* .contact h6 {
+	font-size: 20px;
+} */
 
 .contact h2 {
 	font-size: 20px;
